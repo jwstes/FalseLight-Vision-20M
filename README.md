@@ -7,6 +7,11 @@
 
 ---
 
+## Download .h5 Model
+Download from [HuggingFace](https://huggingface.co/nezuno177/FalseLight-Vision-20M/blob/main/FalseLight%20Vision%2020M.h5)
+
+---
+
 ## 🧠 Model Architecture
 
 - **Base Architecture**: Xception (pre-trained on ImageNet)

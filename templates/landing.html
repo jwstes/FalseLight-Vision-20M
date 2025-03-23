@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="DashCore Powerful Responsive SaaS, Startup &amp; Technology HTML Template">
+    <meta name="keywords" content="template, bootstrap, business, creative agency, services, e-commerce, shopping cart, mobile app showcase, multipurpose, shop, ui kit, marketing, seo, landing, html5, css3, javascript, touch, creative, babel, webpack">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="5studios">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,600,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <style>
+      @keyframes spinner {
+        to {
+          transform: rotate(1turn)
+        }
+      }
+
+      .page-loading {
+        background-color: #fff;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transition: all .4s ease-in-out .2s;
+        visibility: hidden;
+        width: 100%;
+        z-index: 99999
+      }
+
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible
+      }
+
+      .page-loading.active>.page-loading-inner {
+        opacity: 1
+      }
+
+      .page-loading-inner {
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: opacity .2s ease-in-out;
+        width: 100%
+      }
+
+      .page-loading-inner>span {
+        color: #9397ad;
+        display: block;
+        font-size: 1rem;
+        font-weight: 400
+      }
+
+      .page-spinner {
+        animation: spinner .75s linear infinite;
+        border: .15em solid #b4b7c9;
+        border-radius: 50%;
+        border-right-color: transparent;
+        display: inline-block;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        width: 2.75rem
+      }
+
+      [data-bs-theme=dark] .page-loading {
+        background-color: #0b0f19
+      }
+
+      [data-bs-theme=dark] .page-loading-inner>span {
+        color: #fff;
+        opacity: .6
+      }
+
+      [data-bs-theme=dark] .page-spinner {
+        border-color: hsla(0, 0%, 100%, .4) transparent hsla(0, 0%, 100%, .4) hsla(0, 0%, 100%, .4)
+      }
+    </style>
+    <link rel="icon" href="/static/favicon.html">
+    <title>FalseLight by Zhou Hui</title>
+    <link rel="stylesheet" href="/static/css/dashcore.fc445a11655d0d2a6f4a.css">
+  </head>
+  <body>
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div>
+        <span>Loading...</span>
+      </div>
+    </div>
+    
+
+    <main class="position-relative overflow-hidden">
+
+
+        <header class="header developers-header section text-white">
+            <div class="container overflow-hidden text-center pb-9">
+              <p class="small fw-bold text-uppercase text-primary">Welcome to FalseLight!</p>
+              <h1 class="display-4 text-white fw-bold">Detect and Prevent Deepfakes</h1>
+              <p class="text-white display-4 display-md-3">
+                <span class="typed fw-bold text-gradient text-gradient-primary" data-strings="[&quot;Image Analysis&quot;, &quot;Video Scans&quot;, &quot;AI Detection&quot;, &quot;Fraud Prevention&quot;]"></span>
+              </p>
+              <div class="mt-5">
+                <p class="fs-3 text-secondary">Our advanced AI model analyzes images and videos to detect deepfake content, ensuring authenticity and security.</p>
+                <nav class="nav mt-5 justify-content-center">
+                  <a href="/detector" class="btn btn-primary shadow-primary btn-lg me-3">Start Analyzing</a>
+                  <a href="#" class="btn btn-info shadow-info btn-lg">View Documentation</a>
+                </nav>
+              </div>
+            </div>
+          </header>
+    
+    
+          <div class="position-relative ">
+            <div class="shape-divider shape-divider-bottom shape-divider-curve shape-divider-fluid-x text-body-emphasis">
+              <svg viewBox="0 0 2880 48" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" />
+              </svg>
+            </div>
+          </div>
+          <section class="section mt-n6">
+            <div class="container pt-0">
+              <div class="row g-4 text-center">
+
+                <div class="col-md-6">
+                  <div class="card h-100 shadow-box hover-shadow hover-lift">
+                    <div class="card-body p-5">
+                      <h4 class="fw-bold mb-3"> Detect Photos / Videos </h4>
+                      <p class="text-muted mb-4">Quickly detect deepfake manipulations in your photos and videos by uploading your media file. Our advanced algorithm carefully analyzes every detail to identify any signs of tampering.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="card h-100 shadow-box hover-shadow hover-lift">
+                    <div class="card-body p-5">
+                      <h4 class="fw-bold mb-3"> Multi-Subject </h4>
+                      <p class="text-muted mb-4">Analyze images and videos containing multiple subjects with ease. Our multi-target detection feature ensures that every face is evaluated for deepfake alterations, delivering comprehensive results.</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+      
+      
+
+      <section class="section">
+        <div class="container bring-to-front py-0">
+          <div class="card shadow hover-shadow rounded-5">
+            <div class="card-body">
+              <div class="row g-4 align-items-center text-center text-lg-start">
+                <div class="col-md-6 py-4 px-5">
+                  <i data-feather="star" width="36" height="36" class="stroke-success"></i>
+                  <a href="javascript:;" class="mt-4 d-flex align-items-center">
+                    <h4 class="me-3">Github Repository</h4>
+                    <i class="fas fa-arrow-right-long text-success"></i>
+                  </a>
+                  <p class="mt-4">Visit our GitHub repository to explore the complete source code, track project updates, and contribute to the evolution of our deepfake detection solution.</p>
+                </div>
+                <div class="col-md-6 py-4 px-5">
+                  <i data-feather="code" width="36" height="36" class="stroke-info"></i>
+                  <a href="javascript:;" class="mt-4 d-flex align-items-center">
+                    <h4 class="me-3">HuggingFace Repository</h4>
+                    <i class="fas fa-arrow-right-long text-info"></i>
+                  </a>
+                  <p class="mt-4">Explore our HuggingFace repository for models, demos, and detailed insights into our deepfake detection algorithms, enabling seamless integration and experimentation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section bg-body-secondary edge top-left">
+        <div class="container pt-5">
+          <div class="d-flex align-items-center flex-column flex-md-row">
+            <div class="text-center text-md-start">
+              <p class="text-gradient text-gradient-primary mb-0 lead fw-bold">Try it Now!</p>
+              <h2 class="mt-0 fw-bold">Start Analyzing Now For Free</h2>
+            </div>
+            <a href="/detector" class="btn btn-primary shadow-primary mt-3 mt-md-0 ms-md-auto"> Start Analyzing </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section bg-body-secondary">
+      <div class="container border-top py-4">
+        <div class="row g-4 text-center text-md-start">
+          <div class="col-md-4 me-auto">
+            <p>FalseLight by Zhou Hui</p>
+          </div>
+          
+        </div>
+        <hr class="mt-5">
+        <div class="row small align-items-center">
+          <div class="col-md-4">
+            <p class="mt-2 mb-md-0 text-secondary text-center text-md-start">© 2025 Liyueans by Zhou Hui All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <button class="btn btn-warning shadow-warning rounded-circle p-3 d-flex align-items-center justify-content-center scroll-to-top">
+      <i data-feather="chevron-up" width="18" height="18"></i>
+    </button>
+
+
+    <script src="/static/js/dashcore.95cbb7260081cb946756.js"></script>
+    <script src="/static/js/loading.b6bb5062cb3673f443b3.js"></script>
+  </body>
+</html>

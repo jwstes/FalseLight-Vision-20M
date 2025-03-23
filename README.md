@@ -30,7 +30,7 @@ Download from [HuggingFace](https://huggingface.co/nezuno177/FalseLight-Vision-2
 
 ## 🧪 Dataset
 
-- **Source**: [DeepfakeBench](https://github.com/DeepfakeBench)
+- **Source**: [DeepfakeBench](https://github.com/SCLBD/DeepfakeBench)
 - **Total Images**: 150,000 
   - 75,000 real  
   - 75,000 fake  
